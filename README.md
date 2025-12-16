@@ -8,8 +8,7 @@ Divide Two Integers
 Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator.
 
 >Second Commit
-
-Approach: 
+#Approach: 
 1. We are using the classic restoring division algorithm but summing the accumulator to the dividend(quotient) and assign the count as length of dividend. Handle the scope issues too.
 2. We Shift left the sum of accumulator and quotient. 
 3. Then after splitting them back. 
@@ -76,8 +75,7 @@ Roman To Integer
 Given a roman numeral, convert it to an integer.
 
 >Ninth Commit
-
-Approach:
+#Approach:
 1. Initialize a map of Roman symbols to their integer values and set an accumulator num = 0.
 2. Traverse the string from left to right.
 3. If the current symbol is smaller than the next symbol, subtract its value from num.
@@ -102,3 +100,11 @@ Creating the romanToInt.py file to store the solution for 13. Roman to Integer p
 #Third Question:
 Remove Element Problem
 Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
+
+>13th Commit
+#Approach:
+1. Initialize a pointer t = 0 to track the position of the next valid element.
+2. Traverse the array from left to right.
+3. If the current element is not equal to val, copy it to index t and increment t.
+4. Continue until all elements are processed.
+5. Return t, the new length of the array without val.
