@@ -5,6 +5,7 @@ This is the first month of uploading my leetcode practicing to github in a ipynb
 >First Commit
 # First Question:
 Divide Two Integers
+
 Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator.
 
 >Second Commit
@@ -72,10 +73,11 @@ Creation and running was successful with improved time complexity.
 >Eighth Commit
 # Second Question:
 Roman To Integer
+
 Given a roman numeral, convert it to an integer.
 
 >Ninth Commit
-#Approach:
+# Approach:
 1. Initialize a map of Roman symbols to their integer values and set an accumulator num = 0.
 2. Traverse the string from left to right.
 3. If the current symbol is smaller than the next symbol, subtract its value from num.
@@ -99,6 +101,7 @@ Creating the romanToInt.py file to store the solution for 13. Roman to Integer p
 >12th Commit
 # Third Question:
 Remove Element Problem
+
 Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
 
 >13th Commit
