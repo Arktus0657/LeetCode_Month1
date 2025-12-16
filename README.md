@@ -3,7 +3,7 @@
 This is the first month of uploading my leetcode practicing to github in a ipynb style
 
 >First Commit
-### First Question:
+# First Question:
 Divide Two Integers
 Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator.
 
@@ -41,7 +41,7 @@ Creating the dividetwointegers.py file to store the solution for 29. Divide Two 
 # Finding a more efficient solution
 Instead of taking the unsigned restoring machine division algorithm approach, we will subtract the highest power of two's multiple of divisor from the dividend until the remainder is smaller than the divisor.
 
-Aproach:
+Approach:
 1. Handle scope issue
 2. Create variables a and b for dividend and divisor's absolute values respectively and also create a quotient variable.
 3. store value of b in a temporary variable temp.
@@ -69,3 +69,9 @@ All of them are correct answers.
 >Seventh Commit
 #Creating dividetwointegers2.py for the optimized code and running it.
 Creation and running was successful with improved time complexity.
+
+>Eighth Commit
+# Second Question:
+Roman To Integer
+Given a roman numeral, convert it to an integer.
+
