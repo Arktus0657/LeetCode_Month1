@@ -1,14 +1,14 @@
->Initializing Commit
+> Initializing Commit
 # LeetCode_Month1.ipynb Creation
 This is the first month of uploading my leetcode practicing to github in a ipynb style
 
->First Commit
+> First Commit
 # First Question:
 Divide Two Integers
 
 Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator.
 
->Second Commit
+> Second Commit
 # Approach: 
 1. We are using the classic restoring division algorithm but summing the accumulator to the dividend(quotient) and assign the count as length of dividend. Handle the scope issues too.
 2. We Shift left the sum of accumulator and quotient. 
@@ -21,7 +21,7 @@ Given two integers dividend and divisor, divide two integers without using multi
 9. Repeat Step 2 to Step 8 until count equal to 0.
 10. Return the quotient.
 
->Third Commit
+> Third Commit
 # Running the code and testing the outputs
 ```
 Dividing 10 by 3 yields: 3
@@ -33,11 +33,11 @@ Dividing 100579234 by -555806774 yields: -5
 ```
 All of them are correct answers.
 
->Fourth Commit
+> Fourth Commit
 # Creating dividetwointegers.py
 Creating the dividetwointegers.py file to store the solution for 29. Divide Two Integers problem on LeetCode. Hurray. First proper github + leetcode colab by me.
 
->Fifth Commit
+> Fifth Commit
 # Finding a more efficient solution
 Instead of taking the unsigned restoring machine division algorithm approach, we will subtract the highest power of two's multiple of divisor from the dividend until the remainder is smaller than the divisor.
 
@@ -53,7 +53,7 @@ Approach:
 9. Return -1 * quotient.
 10. End.
 
->Sixth Commit
+> Sixth Commit
 # Running optimized code
 
 ```
@@ -66,17 +66,17 @@ Dividing 100579234 by -555806774 yields: -5
 ```
 All of them are correct answers.
 
->Seventh Commit
+> Seventh Commit
 # Creating dividetwointegers2.py for the optimized code and running it.
 Creation and running was successful with improved time complexity.
 
->Eighth Commit
+> Eighth Commit
 # Second Question:
 Roman To Integer
 
 Given a roman numeral, convert it to an integer.
 
->Ninth Commit
+> Ninth Commit
 # Approach:
 1. Initialize a map of Roman symbols to their integer values and set an accumulator num = 0.
 2. Traverse the string from left to right.
@@ -94,17 +94,17 @@ sol.romanToInt('CDXLIX') yields: 449
 ```
 All of them are correct answers.
 
->11th Commit
+> 11th Commit
 # Creating romanToInt.py
 Creating the romanToInt.py file to store the solution for 13. Roman to Integer problem on LeetCode and running the code.
 
->12th Commit
+> 12th Commit
 # Third Question:
 Remove Element Problem
 
 Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
 
->13th Commit
+> 13th Commit
 # Approach:
 1. Initialize a pointer t = 0 to track the position of the next valid element.
 2. Traverse the array from left to right.
@@ -112,7 +112,7 @@ Given an integer array nums and an integer val, remove all occurrences of val in
 4. Continue until all elements are processed.
 5. Return t, the new length of the array without val.
 
->14th Commit
+> 14th Commit
 # Running the code and testing the outputs and Creating removeElement.py
 ```
 sol.removeElement([3,2,2,3], 3): 2
@@ -123,3 +123,10 @@ sol.removeElement([9, 7, 22, 7, 7, 3], 7): 3
 All of them are correct answers.
 
 Creating the removeElement.py file to store the solution for 27. Remove Element Problem on LeetCode and running the code.
+
+
+> 15th Commit
+# Fourth Question:
+Find the Index of the First Occurrence in a String
+
+Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
