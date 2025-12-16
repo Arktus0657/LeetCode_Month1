@@ -1,10 +1,13 @@
+>Initializing Commit
 # LeetCode_Month1
 This is the first month of uploading my leetcode practicing to github in a ipynb style
 
+>First Commit
 ### First Question:
 Divide Two Integers
 Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator.
 
+>Second Commit
 Approach: 
 1. We are using the classic restoring division algorithm but summing the accumulator to the dividend(quotient) and assign the count as length of dividend.
 2. We Shift left the sum of accumulator and quotient. 
@@ -16,3 +19,6 @@ Approach:
 8. Decrement the count.
 9. Repeat Step 2 to Step 8 until count equal to 0.
 10. Return the quotient.
+
+>Third Commit
+Running the code and testing the outputs
