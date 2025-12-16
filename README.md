@@ -8,7 +8,7 @@ Divide Two Integers
 Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator.
 
 >Second Commit
-#Approach: 
+# Approach: 
 1. We are using the classic restoring division algorithm but summing the accumulator to the dividend(quotient) and assign the count as length of dividend. Handle the scope issues too.
 2. We Shift left the sum of accumulator and quotient. 
 3. Then after splitting them back. 
@@ -21,7 +21,7 @@ Given two integers dividend and divisor, divide two integers without using multi
 10. Return the quotient.
 
 >Third Commit
-#Running the code and testing the outputs
+# Running the code and testing the outputs
 ```
 Dividing 10 by 3 yields: 3
 Dividing 7 by -3 yields: -2
@@ -53,7 +53,7 @@ Approach:
 10. End.
 
 >Sixth Commit
-#Running optimized code
+# Running optimized code
 
 ```
 Dividing 10 by 3 yields: 3
@@ -66,7 +66,7 @@ Dividing 100579234 by -555806774 yields: -5
 All of them are correct answers.
 
 >Seventh Commit
-#Creating dividetwointegers2.py for the optimized code and running it.
+# Creating dividetwointegers2.py for the optimized code and running it.
 Creation and running was successful with improved time complexity.
 
 >Eighth Commit
@@ -84,7 +84,7 @@ Given a roman numeral, convert it to an integer.
 6. Return num.
 
 > 10th Commit
-#Running the code and testing the outputs
+# Running the code and testing the outputs
 ```
 sol.romanToInt('CDLXXXVIII') yields: 488
 sol.romanToInt('CDLXIX') yields: 469
@@ -97,12 +97,12 @@ All of them are correct answers.
 Creating the romanToInt.py file to store the solution for 13. Roman to Integer problem on LeetCode and running the code.
 
 >12th Commit
-#Third Question:
+# Third Question:
 Remove Element Problem
 Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
 
 >13th Commit
-#Approach:
+# Approach:
 1. Initialize a pointer t = 0 to track the position of the next valid element.
 2. Traverse the array from left to right.
 3. If the current element is not equal to val, copy it to index t and increment t.
