@@ -97,3 +97,8 @@ All of them are correct answers.
 >11th Commit
 # Creating romanToInt.py
 Creating the romanToInt.py file to store the solution for 13. Roman to Integer problem on LeetCode and running the code.
+
+>12th Commit
+#Third Question:
+Remove Element Problem
+Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
