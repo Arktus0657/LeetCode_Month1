@@ -111,3 +111,15 @@ Given an integer array nums and an integer val, remove all occurrences of val in
 3. If the current element is not equal to val, copy it to index t and increment t.
 4. Continue until all elements are processed.
 5. Return t, the new length of the array without val.
+
+>14th Commit
+# Running the code and testing the outputs and Creating removeElement.py
+```
+sol.removeElement([3,2,2,3], 3): 2
+sol.removeElement([4, 5, 6, 7, 4, 4], 4): 3
+sol.removeElement([11, 11, 11, 11], 11): 0
+sol.removeElement([9, 7, 22, 7, 7, 3], 7): 3
+```
+All of them are correct answers.
+
+Creating the removeElement.py file to store the solution for 27. Remove Element Problem on LeetCode and running the code.
