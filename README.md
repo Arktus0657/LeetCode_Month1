@@ -84,3 +84,12 @@ Approach:
 4. Otherwise, add its value to num.
 5. Repeat until all symbols are processed.
 6. Return num.
+
+> 10th Commit
+#Running the code and testing the outputs
+```
+sol.romanToInt('CDLXXXVIII') yields: 488
+sol.romanToInt('CDLXIX') yields: 469
+sol.romanToInt('CDXLIX') yields: 449
+```
+All of them are correct answers.
