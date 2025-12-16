@@ -75,3 +75,12 @@ Creation and running was successful with improved time complexity.
 Roman To Integer
 Given a roman numeral, convert it to an integer.
 
+>Ninth Commit
+
+Approach:
+1. Initialize a map of Roman symbols to their integer values and set an accumulator num = 0.
+2. Traverse the string from left to right.
+3. If the current symbol is smaller than the next symbol, subtract its value from num.
+4. Otherwise, add its value to num.
+5. Repeat until all symbols are processed.
+6. Return num.
