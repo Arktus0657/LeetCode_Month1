@@ -22,8 +22,16 @@ Approach:
 10. Return the quotient.
 
 >Third Commit
-
-Running the code and testing the outputs
+#Running the code and testing the outputs
+```
+Dividing 10 by 3 yields: 3
+Dividing 7 by -3 yields: -2
+Dividing -2147483648 by 2147483647 yields: -1
+Dividing 1981445587 by 1172010393 yields: 1
+Dividing -2147483648 by -1 yields: 2147483648
+Dividing 100579234 by -555806774 yields: -5
+```
+All of them are correct answers.
 
 >Fourth Commit
 # Creating dividetwointegers.py
@@ -44,3 +52,16 @@ Aproach:
 8. Return quotient if the sign of dividend and divisor is same and goto step 10.
 9. Return -1 * quotient.
 10. End.
+
+>Sixth Commit
+#Running optimized code
+
+```
+Dividing 10 by 3 yields: 3
+Dividing 7 by -3 yields: -2
+Dividing -2147483648 by 2147483647 yields: -1
+Dividing 1981445587 by 1172010393 yields: 1
+Dividing -2147483648 by -1 yields: 2147483648
+Dividing 100579234 by -555806774 yields: -5
+```
+All of them are correct answers.x
