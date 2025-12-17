@@ -142,3 +142,15 @@ Given two strings needle and haystack, return the index of the first occurrence 
 6. If needle is not found, return -1.
 
 Test cases successfully passed.
+
+>17th Commit
+# Creating strStr.py and running it.
+Creating the removeElement.py file to store the solution for 28. Find the Index of the First Occurrence in a String Problem on LeetCode and running the code.
+
+Running the code successfully outputs:
+```
+0
+-1
+2
+-1
+```
