@@ -154,3 +154,9 @@ Running the code successfully outputs:
 2
 -1
 ```
+
+>18th Commit
+# Fifth Question
+Pascal's Triangle
+
+Given an integer numRows, return the first numRows of Pascal's triangle (a traingele where each number is the sum of the two numbers directly above it).
