@@ -130,3 +130,15 @@ Creating the removeElement.py file to store the solution for 27. Remove Element 
 Find the Index of the First Occurrence in a String
 
 Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+
+> 16th Commit
+# Approach and running test cases:
+
+1. Iterate through the haystack string from left to right.
+2. At each index, check whether the current character matches the first character of needle.
+3. If it matches, compare the substring starting at that index with needle.
+4. If the substring matches, return the current index.
+5. Continue this process until the end of haystack.
+6. If needle is not found, return -1.
+
+Test cases successfully passed.
