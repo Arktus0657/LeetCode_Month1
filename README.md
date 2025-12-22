@@ -157,6 +157,19 @@ Running the code successfully outputs:
 
 >18th Commit
 # Fifth Question
+
+
+>19th Commit
+
+
+
+
 Pascal's Triangle
 
 Given an integer numRows, return the first numRows of Pascal's triangle (a traingele where each number is the sum of the two numbers directly above it).
+
+# Approach and running test cases:
+
+
+
+Test cases successfully passed.
